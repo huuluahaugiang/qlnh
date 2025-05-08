@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
-//using MyTools;
+using MyTools;
 
 
 
@@ -11,6 +11,7 @@ namespace QuanLyNhaHang
 {
     public partial class Form1 : Form
     {
+        
         static string ChuoiKetNoi = @"Data Source=.\SQLEXPRESS;Initial Catalog=QLNH;Integrated Security=True";        
         string MaBan;
         int MaHoaDon=0;
